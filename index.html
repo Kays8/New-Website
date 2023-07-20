@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <title>Education Bootstrap5</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-white shadow-sm">
+        <div class="container">
+            <img src="./images/site-logo.jpg" class="rounded d-block" alt="...">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> Other</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fw-medium">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contact
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Thirayut Boonin</a></li>
+                                <li><a class="dropdown-item" href="#">65259005</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">SE 65/45</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6 ">
+                <img src="./images/gallery-img2.jpg" class="d-block mx-lg-auto img-fluid rounded-5"
+                    alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-3 fw-normal lh-1 mb-3">Welcome To <br> Education Pro.</h1>
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, sequi vel.
+                    Perspiciatis laborio sam praesentium.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn border-primary border-3 btn-lg px-4 me-md-2 rounded-pill mt-3">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-4 py-5 my-5 text-center">
+        <p class="section-subtitle" id="service-label">POPULAR COURSES!</p>
+        <h2 class="h2 section-title display-6 fw-normal">Help students become superheroes!</h2>
+        <div class="col-lg-6 mx-auto">
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="icon border border-dark rounded-pill mt-3">
+                                    <ion-icon name="code-slash-outline" role="img" class="md hydrated"
+                                        aria-label="code slash outline"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title ">Coding Time</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, amet sit?
+                                </p>
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 rounded-pill ">Click
+                                    Here</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="icon border border-dark rounded-pill mt-3">
+                                    <ion-icon name="desktop-outline" role="img" class="md hydrated"
+                                        aria-label="desktop outline"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">TechCast</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, dignissimos
+                                    cupiditate.
+                                </p>
+                                <button type="button"
+                                    class="btn btn-primary border-3 btn-lg px-4 me-md-2 rounded-pill ">Click
+                                    Here</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section -->
+    <section class="about bg-light" aria-labelledby="about-label">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6">
+                    <figure class="about-banner">
+                        <img src="./images/p1.jpg" width="800" height="580" loading="lazy" alt=""
+                            class="img-fluid rounded-5 mt-3">
+                    </figure>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="section-subtitle mt-3">Are you Ready?</p>
+                        <h2 class="section-title">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, architecto!
+                        </h2>
+                        <ul class="list-unstyled">
+                            <li class="about-item">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h3 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                <span class="h5">UX/UI design</span>
+                                            </button>
+                                        </h3>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                                                consequuntur ad delectus cumque ullam! Dolorem ea, qui repellendus a
+                                                numquam ullam commodi sequi consectetur asperiores. Lorem ipsum dolor
+                                                sit amet, consectetur adipisicing elit. Dicta commodi numquam sequi sunt
+                                                laudantium omnis molestiae ratione hic illo sed.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section feature mt-3">
+        <div class="container">
+            <p class="section-subtitle">You can teach computer science</p>
+            <h2 class="h2 section-title">
+                You don't have to be a software developer to teach computer science.
+                More than one million teachers have brought CS to their students using Code.org. We make it easy, no
+                matter
+                your background.
+            </h2>
+            <ul class="feature-list">
+                <li>
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <ion-icon name="arrow-down-outline" role="img" class="md hydrated"
+                                aria-label="arrow down outline"></ion-icon>
+                        </div>
+                        <span class="span">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <ion-icon name="arrow-up-outline" role="img" class="md hydrated"
+                                aria-label="arrow up outline"></ion-icon>
+                        </div>
+                        <span class="span">Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <div class="px-4 py-3 my-3 text-center bg-light">
+        <p class="section-subtitle" id="project-label">Project Feature</p>
+        <h2 class="h2 section-title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Eius veritatis error nemo.
+        </h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-sm-center">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/person1.jpg" class="card-img-top" alt="person1">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">longer. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Sapiente, mollitia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./images/person3.jpg" class="card-img-top" alt="person2">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea odit aliquam
+                            deserunt ad minima quis laborum quidem ullam expedita culpa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container d-flex justify-content-center my-3">
+        <section class="footer">
+            <div class="credit">&copy;2023 by Kays(Thirayut)</div>
+        </section>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
